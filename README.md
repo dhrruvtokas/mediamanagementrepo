@@ -13,21 +13,21 @@
 
 # Structure
 
-This specific Github repository consists of an index file (front-end) and three "PHP" files (back-end) which can be used to access and modify the project accordingly.
+This specific Github repository consists of an "index.html" file (front-end) and three "PHP" files (back-end) which can be used to access and modify the project accordingly.
 
 # Overview
 
-Media Management System is an advanced version of Content Uploader that I have created, instead of just uploading a file from a local server, a user can now upload, download, and search a file in an AWS server.
+Media Management System is an advanced version of the Content Uploader application that I have created, instead of just uploading a file from a local server, a user can now upload, download, and search a file in an AWS server.
 
 # Project installation
 
-The package works as a stand-alone application which can be executed by opening the provided index.html file in any supported web-browser (Tested on Edge, Chrome, Mozilla, and Safari). There are three more "PHP" files each of which has been named according to their respective functionality (download, upload, and search). It is recommended that a user updates "IAM Key", "IAM Secret Key", and the "Bucket Name" in each of these "PHP" files before running the index file.
+The package works as a stand-alone application which can be executed by opening the provided "index.html" file in any supported web-browser (Tested on Edge, Chrome, Mozilla, and Safari). There are three more "PHP" files each of which has been named according to their respective functionality (download, upload, and search). The project requires a working "Amazon S3 bucket" and it is recommended that a user updates "IAM Key", "IAM Secret Key", and the "Bucket Name" in each of these "PHP" files before running the index file.
 
 # Technologies
 
 1. HTML: Used for creating front-end controls.
 2. Javascript: Used for selecting a file from a local system and passing it to the PHP server.
-3. PHP: Used for uploading a selected file to an AWS Server (Upload.php, Search.php, and Download.php)
+3. PHP: Used for uploading, searching, and downloading a selected file to/from an AWS Server (Upload.php, Search.php, and Download.php)
 
 
 # Requirements
