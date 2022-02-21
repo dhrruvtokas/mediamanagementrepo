@@ -13,7 +13,7 @@
 
 # Structure
 
-This specific Github repository consists of an index file (front-end) and a php file (back-end) which can be used to access and modify the project accordingly.
+This specific Github repository consists of an index file (front-end) and three "PHP" files (back-end) which can be used to access and modify the project accordingly.
 
 # Overview
 
