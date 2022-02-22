@@ -1,0 +1,59 @@
+<html> 
+<head> 
+<title> Upload Prototpe </title>
+<style>
+.upload_button {
+  display:inline-block;
+  padding:0.5em 1.5em;
+  border-radius:3em;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight:300;
+  color:white;
+  background-color:red;
+  text-align:center;
+  transition: all 0.4s;
+}
+.upload_button:hover {
+  background-color:white;
+  color: red;
+}
+
+.search_button {
+  display:inline-block;
+  padding:0.5em 1.5em;
+  border-radius:3em;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight:300;
+  color:white;
+  background-color:purple;
+  text-align:center;
+  transition: all 0.4s;
+}
+.search_button:hover {
+  background-color:white;
+  color: purple;
+}
+
+</style>
+</head> 
+<body style="background-color:black;">
+
+<BR><BR>
+
+<center>
+<h1 style="color:white;">Media File Uploader</h1>
+
+<form action="upload.php" method="post" enctype="multipart/form-data" id="uploadForm">
+<input type="file" name="file_upload" id="file_upload" style="color:white;">
+<input type="submit" value="Upload" name="submit" class="upload_button">
+</form>
+
+<form action="search.php" method="post" enctype="multipart/form-data" id="searchForm">
+<input type="submit" value="See Content" name="submit" class="search_button">
+</form>
+
+</center>
+</body> 
+</html>
